@@ -36,6 +36,7 @@ return {
         "emmet_ls",
         "prismals",
         "pyright",
+        "rust_analyzer",
       },
     })
 
@@ -47,7 +48,9 @@ return {
         "black", -- python formatter
         "pylint",
         "eslint_d",
+        "rust-analyzer",
       },
     })
   end,
 }
+
