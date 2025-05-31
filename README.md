@@ -8,29 +8,33 @@
 
 ### source ~/.profile
 
-### nvim install --lts
+### nvm install --lts
 
 ## Neovim installation
 
-### curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+### curl -LO https://github.com/neovim/neovim/releases/download/stable/nvim-linux-x86_64.tar.gz
 
 ### sudo rm -rf /opt/nvim
 
 ### sudo tar -C /opt -xzf nvim-linux64.tar.gz
 
-### export PATH="$PATH:/opt/nvim-linux64/bin"
+### echo 'export PATH="$PATH:/opt/nvim/bin"' >> ~/.profile
 
 ## Lazygit installation
 
 ### https://github.com/jesseduffield/lazygit/releases
 
-### wget https://github.com/jesseduffield/lazygit/releases/download/v0.43.1/lazygit_0.43.1_Linux_x86_64.tar.gz
+### wget https://github.com/jesseduffield/lazygit/releases/download/v0.51.1/lazygit_0.51.1_Linux_x86_64.tar.gz
 
-### tar -xvf lazygit_0.43.1_Linux_x86_64.tar.gz
+### tar -xvf lazygit_0.51.1_Linux_x86_64.tar.gz
 
 ### sudo cp lazygit /usr/bin/
 
-## Nvim config clone
+### Nvim config clone
+
+### cd ~
+
+### mkdir .config
 
 ### cd .config
 
