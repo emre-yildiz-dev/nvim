@@ -18,7 +18,9 @@
 
 ### sudo tar -C /opt -xzf nvim-linux64.tar.gz
 
-### echo 'export PATH="$PATH:/opt/nvim/bin"' >> ~/.profile
+### echo 'export PATH="$PATH:/opt/nvim-linux-x86_64/bin"' >> ~/.profile
+
+### source ~/.profile
 
 ## Lazygit installation
 
